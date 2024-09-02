@@ -97,7 +97,7 @@ function App() {
 
       const ctx = canvasRef.current.getContext('2d');
 
-      if (hand) {
+      if (hand.length > 0) {
 
         var coords = [
           [hand[0].keypoints[5].x, hand[0].keypoints[5].y],
