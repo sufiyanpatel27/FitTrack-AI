@@ -68,7 +68,7 @@ function App() {
     try {
       setInterval(() => {
         detect(detector, model, model2)
-      }, 1)
+      }, 100)
     } catch (error) {
       console.log('nothing')
     }
