@@ -1,5 +1,5 @@
 import './App.css';
-import React, { useRef, useState } from 'react';
+import React, { useRef, useEffect } from 'react';
 import * as tf from '@tensorflow/tfjs';
 import Webcam from 'react-webcam';
 import '@tensorflow/tfjs-backend-webgl';
@@ -7,6 +7,11 @@ import * as poseDetection from '@tensorflow-models/pose-detection';
 
 
 function App() {
+
+  useEffect(() => {
+    document.title = "FitTrack AI";
+  }, []);
+
 
   const classifier = process.env.REACT_APP_classifier;
   const regressor = process.env.REACT_APP_regressor;
