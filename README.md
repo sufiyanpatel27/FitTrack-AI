@@ -5,7 +5,7 @@
 I developed an AI-powered web application that analyzes live video feeds of users performing exercises to detect and correct their form in real-time. By leveraging machine learning (ML), deep learning (DL), and computer vision technologies, the app identifies key body points (such as elbows, wrists, and shoulders) and tracks movements to provide personalized feedback. It detects errors in exercise form, helping users improve their technique. Built using TensorFlow, Keras, and TensorFlow.js, this solution ensures accurate and seamless performance tracking, even in live environments.
 
 <p align="center">
-  <img src="./src/assets/gif1.gif?raw=true" alt="Alt Text" width="400">
+  <img src="https://github.com/sufiyanpatel27/FitTrack-AI/blob/prod/src/assets/gif1.gif?raw=true" alt="Alt Text" width="400">
   <img src="https://github.com/sufiyanpatel27/FitTrack-AI/blob/prod/src/assets/gif2.gif?raw=true" alt="Alt Text" width="400">
 </p>
 <p align="center">
