@@ -7,6 +7,10 @@ import * as poseDetection from '@tensorflow-models/pose-detection';
 
 
 function App() {
+
+  const classifier = process.env.REACT_APP_classifier;
+  const regressor = process.env.REACT_APP_regressor;
+
   // basic Reference
   const webcamRef = useRef(null);
   const canvasRef = useRef(null);
@@ -61,9 +65,9 @@ function App() {
     await tf.ready();
     const detector = await poseDetection.createDetector(poseDetection.SupportedModels.MoveNet);
     console.log('Movenet model loaded.');
-    const model = await tf.loadLayersModel('https://raw.githubusercontent.com/sufiyanpatel27/burnwise/models/d_pull_ups/classifier/model.json')
+    const model = await tf.loadLayersModel(classifier);
     console.log('classification model loaded')
-    const model2 = await tf.loadLayersModel('https://raw.githubusercontent.com/sufiyanpatel27/burnwise/models/d_pull_ups/regressor/model.json')
+    const model2 = await tf.loadLayersModel(regressor)
     console.log('regression model loaded')
     try {
       setInterval(() => {
