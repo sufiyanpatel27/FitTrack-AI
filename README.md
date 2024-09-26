@@ -1,70 +1,89 @@
-# Getting Started with Create React App
+# 🏋️‍♂️ FitTrackAI (AI-Powered Exercise Form Correction Web Application)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+#### Demo: https://fittrackai.vercel.app/
 
-## Available Scripts
+I developed an AI-powered web application that analyzes live video feeds of users performing exercises to detect and correct their form in real-time. By leveraging machine learning (ML), deep learning (DL), and computer vision technologies, the app identifies key body points (such as elbows, wrists, and shoulders) and tracks movements to provide personalized feedback. It detects errors in exercise form, helping users improve their technique. Built using TensorFlow, Keras, and TensorFlow.js, this solution ensures accurate and seamless performance tracking, even in live environments.
 
-In the project directory, you can run:
 
-### `npm start`
+<div align="center">
+  <img src="https://github.com/sufiyanpatel27/FitTrack-AI/blob/prod/src/assets/gif1.gif?raw=true" alt="Alt Text">
+  <img src="https://github.com/sufiyanpatel27/FitTrack-AI/blob/prod/src/assets/gif2.gif?raw=true" alt="Alt Text">
+  <img src="https://github.com/sufiyanpatel27/FitTrack-AI/blob/prod/src/assets/gif3.gif?raw=true" alt="Alt Text">
+  <img src="https://github.com/sufiyanpatel27/FitTrack-AI/blob/prod/src/assets/gif4.gif?raw=true" alt="Alt Text">
+</div>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
+## 📖 Project Description
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+This project is a cutting-edge AI-based web app designed to track, analyze, and correct a user’s exercise form in real-time using live video feeds. By combining the power of machine learning (ML), deep learning (DL), and data science with computer vision, the app effectively detects a user’s skeletal data points (e.g., elbows, wrists, shoulders) and uses these points to assess their movement patterns during workouts.
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Video Output
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+<a href="https://youtu.be/u4m15K97hfY">
+  <img src="https://github.com/sufiyanpatel27/FitTrack-AI/blob/prod/src/assets/1.png?raw=true" alt="Watch the video" width="500" height="300">
+</a>
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+<a href="https://youtu.be/MHdyTKsjrP4">
+  <img src="https://github.com/sufiyanpatel27/FitTrack-AI/blob/prod/src/assets/2.png?raw=true" alt="Watch the video" width="500" height="300">
+</a>
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## 🌟 Key Features
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- **⏱️ Real-Time Exercise Tracking:** Utilizing advanced image recognition and visual intelligence, the app monitors a user's workout in real-time, capturing every movement and identifying key body points.
+- **❌ Exercise Error Detection:** The system detects errors in form, such as incorrect elbow positioning during a dumbbell shoulder press or improper wrist alignment, and provides instant feedback to help users correct their form.
+- **💡 Personalized Feedback:** The app goes beyond basic detection by providing detailed suggestions, ensuring users know exactly what needs improvement and why, resulting in safer and more effective workouts.
+- **⚡ Smooth Live Video Processing:** With technologies like TensorFlow, Keras, and TensorFlow.js, the application performs effortlessly on live video feeds, ensuring real-time processing without lag.
+- **🧠 AI and Data Science at the Core:** The system uses sophisticated AI models, trained on datasets of exercise movements, to accurately predict and detect form issues.
 
-## Learn More
+## 🛠️ Tech Stack
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- **Frontend:**
+  - ⚛️ React 
+  - 🧠TensorFlow.js for real-time execution in the browser
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- **Backend/AI:**
+  - TensorFlow 🔥
+  - Keras 🧩
+  - TensorFlow Pose Detection Library (MoveNet) 🏃‍♂️
 
-### Code Splitting
+- **Core Technologies:**
+  - Artificial Intelligence (AI) 🤖
+  - Machine Learning (ML) 📊
+  - Deep Learning (DL) 🧠
+  - Image Recognition/Processing 🖼️
+  - Data Science 📈
+  - Visual Intelligence 👁️
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+This AI-powered web application is a game-changer for fitness enthusiasts, personal trainers, and anyone looking to improve their exercise technique with the help of advanced technology. The fusion of ML, DL, and real-time video analysis provides users with an intelligent, interactive experience that ensures continuous improvement in their workout performance.
 
-### Analyzing the Bundle Size
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+### 📝 To-Dos / Future Enhancements
 
-### Making a Progressive Web App
+- **➕ Add More Exercises:** Expanding the library of supported exercises.
+- **📊 Enhanced Analytics:** Providing detailed workout summaries and progress tracking over time.
+- **🔬 Experiment with Other AI Models:** Testing different models for accuracy and performance improvements.
+- **📹 Video Upload Feature:** Allowing users to upload recorded videos for form analysis.
+- **📈 Integrate Progress Tracking:** Monitor user improvements over time with visual feedback.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-### Advanced Configuration
+### 🔍 Challenges Faced
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+- **Real-Time Processing:** Ensuring the app processes video frames in real-time without lag was a major challenge. This required optimizing the TensorFlow.js models and efficient use of WebGL.
+- **Model Accuracy:** Training the model to accurately detect form errors involved experimenting with various datasets and model architectures.
+- **Cross-Browser Compatibility:** Ensuring the app works seamlessly across different browsers with varying support for WebRTC and TensorFlow.js.
+- **Resource Management:** Balancing the computational load to avoid overloading the user’s device while maintaining smooth performance.
 
-### Deployment
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+### 📚 Resources Used
 
-### `npm run build` fails to minify
+- **TensorFlow & Keras Documentation:** For understanding and implementing the ML/DL models.
+- **MoveNet Pose Detection Library:** To integrate pose detection capabilities into the app.
+- **MDN Web Docs:** For web technologies and ensuring cross-browser compatibility.
+- **Stack Overflow & GitHub:** Community forums and repositories were invaluable for troubleshooting and optimizing the application.
+- **TensorFlow.js Community:** Resources and discussions around using TensorFlow.js effectively.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
